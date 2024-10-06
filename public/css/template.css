@@ -1,0 +1,153 @@
+nav{
+  background-color: rgba(23, 43, 94, 0.3);
+
+}
+
+.mnubtn{
+  background-color: #77f0be;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.logo{
+  padding-left: 100px;
+}
+
+nav a{
+  color: #fff;
+  padding:10px 0px 0px 30px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #77f0be;
+}
+
+.est{
+  background-color: #1e7be2;
+  border-radius: 5px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 40px;
+  font-weight: 800;
+  font-size: 1em;
+  color: #fff;
+}
+
+.marg{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/*Footer Section*/
+footer {
+  background: linear-gradient(135deg, #020720 0%, #1D1E54 100%);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 74px 5% 31px 5%;
+}
+
+#footer-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#footer-logo h5 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+  margin-left: 15px;
+}
+
+#footer-logo span {
+  color: #79F5BE;
+}
+
+.footer-container h6 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #79F5BE;
+}
+
+.footer-container p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+#quick-links ul {
+  list-style: none;
+}
+
+#quick-links a {
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #fff;
+}
+
+.footer-container input {
+  width: 365px;
+  height: 50px;
+  padding-left: 23px;
+  background-color: #fff;
+  border: none;
+  color: #BDBDBD;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  display: block;
+  margin: 20px 0;
+}
+
+.footer-container button {
+  width: 170px;
+  height: 50px;
+  background-color: #79F5BE;
+  color: #020720;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.footer-container button:hover {
+  cursor: pointer;
+}
+
+footer hr {
+  width: 90%;
+  margin: auto;
+  height: 3px;
+  background-color: #79F5BE;
+}
+
+#copyright {
+  font-weight: 400;
+  font-size: 18px;
+  color: #79F5BE;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+  }
+}

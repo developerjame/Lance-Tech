@@ -1,0 +1,134 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+ }
+ #engine-image{
+    /* background-image: url(images/car-engine-3623831__340.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px; */
+}
+
+.section{
+    background-color:transparent; 
+    background-image: url(images/log.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+      
+}
+#im-eng{
+    text-align: center;
+    padding-top: 30px;
+}
+ #btn-estimate{
+     height: 50px;
+     font-size: 15px;
+     font-weight: bold;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin: 20px;
+     border: 1px #1d1e54 solid;
+     background-color: transparent;
+     box-shadow: inset 300px 0 0 0 0 #79F5BE;
+     color: white;
+     cursor: pointer;
+     transition: ease-out 0.9s;
+ }
+ #btn-estimate:hover{
+     box-shadow: inset 300px 0 0 0 #79F5BE;
+     cursor: pointer;
+ }
+    
+ 
+#im-eng h3{
+    align-items: center;
+    color: #79F5BE;
+    font-size: 25px;
+    padding: 15px;
+    
+}
+
+.eng-check{
+    margin: 50px;
+    height: 400px;
+    width: 350px;
+    border: 1px #79F5BE solid;
+    padding: 20px;
+}
+.sect-wrd{
+    text-align: center;
+    color: #fff;
+}
+.sect-wrd h1{
+    font-size: 40px;
+    padding-top: 80px;
+}
+ .sect-wrd h1::after{
+     content: '';
+     background: #79F5BE;
+     display: block;
+     width: 300px;
+     height: 5px;
+     margin: auto;
+     margin-top: 40px;
+ }
+.sect{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content:space-evenly;
+}
+.pb{
+    text-align: center;
+}
+.pb p{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    line-height: 30px;
+}
+@media(max-width: 700px){
+    .Eng-check{
+        flex-direction: column;
+        height: 300px;
+        width: 250px;
+    }
+    .sect-wrd h1{
+         font-size: 28px;
+    }
+    #im-eng{
+        height: auto;
+        width: auto;
+        padding-top: 4px;
+    }
+    #im-eng h3{
+        font-size: 20px;
+        margin-bottom: 0px;
+    
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    .pb p{
+        font-size: 18px;
+        margin-top: 2x;
+        
+    }
+    #btn-estimate{
+        font-size: 10px;
+        font-weight: bold;
+        color:a#1d1e54;
+        margin-top: 10px;
+        transition: 0.4s;
+        
+        
+       
+    }
+     
+    }
+    .sect{
+        padding: 10px;
+    }
+    
