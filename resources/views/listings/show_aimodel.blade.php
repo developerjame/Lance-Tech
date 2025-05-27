@@ -1,6 +1,6 @@
 <x-layout>
     @auth
-    <a href="/admin/aimodel" class="inline-block text-white ml-4 mb-4"
+    <a href="/admin/aimodel" class="inline-block text-dark ml-4 mb-4"
     ><i class="fa-solid fa-arrow-left"></i> Back
     </a>
     <div class="mx-4">
@@ -9,16 +9,16 @@
             class="flex flex-col items-center justify-center text-center"
         >
     
-            <h1 class="text-3xl text-white mb-2">{{$aimodel->name}}</h1>
-            <div class="text-xl text-white font-bold mb-4"><p>Price: ${{$aimodel->price}}</p></div>
+            <h1 class="text-3xl text-dark mb-2">{{$aimodel->name}}</h1>
+            <div class="text-xl text-dark font-bold mb-4"><p>Price: ${{$aimodel->price}}</p></div>
             
             <div class="border border-gray-200 w-full mb-6"></div>
             <div>
-                <h3 class="text-2xl text-white mb-4">
+                <h3 class="text-2xl text-dark mb-4">
                     Description
                 </h3>
                
-                <div class="text-lg text-white space-y-6">
+                <div class="text-lg text-dark space-y-6">
                     
                     <p>
                         {{$aimodel->description}}
@@ -56,7 +56,7 @@
 
     @else
 
-    <a href="/admin/aimodel" class="inline-block text-white ml-4 mb-4"
+    <a href="/admin/aimodel" class="inline-block text-dark ml-4 mb-4"
     ><i class="fa-solid fa-arrow-left"></i> Back
     </a>
     <div class="mx-4">
@@ -65,16 +65,16 @@
             class="flex flex-col items-center justify-center text-center"
         >
     
-            <h1 class="text-3xl text-white mb-2">{{$aimodel->name}}</h1>
-            <div class="text-xl text-white font-bold mb-4"><p>Price: ${{$aimodel->price}}</p></div>
+            <h1 class="text-3xl text-dark mb-2">{{$aimodel->name}}</h1>
+            <div class="text-xl text-dark font-bold mb-4"><p>Price: ${{$aimodel->price}}</p></div>
             
             <div class="border border-gray-200 w-full mb-6"></div>
             <div>
-                <h3 class="text-2xl text-white mb-4">
+                <h3 class="text-2xl text-dark mb-4">
                     Description
                 </h3>
                
-                <div class="text-lg text-white space-y-6">
+                <div class="text-lg text-dark space-y-6">
                     
                     <p>
                         {{$aimodel->description}}
@@ -82,7 +82,7 @@
     
                     <a
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=mycomputeruser8@gmail.com"
-                        class="block bg-primary text-white mt-6 py-2 rounded-xl hover:opacity-80"
+                        class="block bg-primary text-dark mt-6 py-2 rounded-xl hover:opacity-80"
                         ><i class="fa-solid fa-envelope"></i>
                         Contact</a
                     >

@@ -3,14 +3,14 @@
         @auth
             
         <header>
-            <a href="/admin" class="text-white ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
+            <a href="/admin" class="text-dark ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
             <a
             href="/moderations/create"
-            class="absolute top-15 right-10 bg-black text-white py-2 px-5"
+            class="absolute top-15 right-10 bg-black text-dark py-2 px-5"
             >Add</a
         >
             <h1
-                class="text-3xl text-center text-white font-bold my-6 uppercase"
+                class="text-3xl text-center text-dark font-bold my-6 uppercase"
             >
                 Chat Moderation Accounts
             </h1>
@@ -20,12 +20,12 @@
             <tbody>
                 <tr class="border-gray-300">
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >
                     <b>Name</b>
                     </td>
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >
                     <b>Price</b>  
                     </td>
@@ -48,12 +48,12 @@
                 @foreach($moderationResults as $moderation)
                 <tr class="border-gray-300">
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >
                             {{$moderation->name}}
                     </td>
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >$ 
                             {{$moderation->price}}  
                     </td>
@@ -86,7 +86,7 @@
                 @else
                 <tr class="border-gray-300">
                     <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
-                        <p class="text-center text-white">No Chat Moderation Account Found.<a href="/moderations/create">Click here to add</a></p>
+                        <p class="text-center text-dark">No Chat Moderation Account Found.<a href="/moderations/create">Click here to add</a></p>
                     </td>
                 </tr>
                 @endunless   
@@ -94,11 +94,11 @@
         </table>
         @else
         <header>
-            <a href="/section" class="text-white ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
+            <a href="/section" class="text-dark ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
             
         >
             <h1
-                class="text-3xl text-center text-white font-bold my-6 uppercase"
+                class="text-3xl text-center text-dark font-bold my-6 uppercase"
             >
                 Chat Moderation Accounts
             </h1>
@@ -108,12 +108,12 @@
             <tbody>
                 <tr class="border-gray-300">
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >
                     <b>Account</b>
                     </td>
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >
                     <b>Price</b>  
                     </td>
@@ -136,12 +136,12 @@
                 @foreach($moderationResults as $moderation)
                 <tr class="border-gray-300">
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >
                             {{$moderation->name}}
                     </td>
                     <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-white text-lg"
+                        class="px-4 py-8 border-t border-b border-gray-300 text-dark text-lg"
                     >$ 
                             {{$moderation->price}}  
                     </td>
@@ -164,7 +164,7 @@
                 @else
                 <tr class="border-gray-300">
                     <td class="px-4 py-8 border-t border-b border-gray-300 text-lg">
-                        <p class="text-center text-white">No Chat Moderation Account Found.</p>
+                        <p class="text-center text-dark">No Chat Moderation Account Found.</p>
                     </td>
                 </tr>
                 @endunless   
