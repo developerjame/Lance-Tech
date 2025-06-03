@@ -1,10 +1,10 @@
 <x-layout>
     @auth
-    <a href="/admin/aimodel" class="inline-block text-dark ml-4 mb-4"
+    <a href="/admin/aimodel" class="inline-block text-white ml-4 mb-4"
     ><i class="fa-solid fa-arrow-left"></i> Back
     </a>
     <div class="mx-4">
-    <x-card class="p-10">
+    <x-card-small class="p-10">
         <div
             class="flex flex-col items-center justify-center text-center"
         >
@@ -39,7 +39,7 @@
                 
             </div>
         </div>
-    </x-card>
+    </x-card-small>
     
     {{--<x-card class="mt-4 p-2 flex space-x-6">
       <a href="/listings/{{$listing->id}}/edit">
@@ -56,11 +56,11 @@
 
     @else
 
-    <a href="/admin/aimodel" class="inline-block text-dark ml-4 mb-4"
+    <a href="/admin/aimodel" class="inline-block text-white ml-4 mb-4"
     ><i class="fa-solid fa-arrow-left"></i> Back
     </a>
     <div class="mx-4">
-    <x-card class="p-10">
+    <x-card-small class="p-10">
         <div
             class="flex flex-col items-center justify-center text-center"
         >
@@ -82,7 +82,7 @@
     
                     <a
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=mycomputeruser8@gmail.com"
-                        class="block bg-primary text-dark mt-6 py-2 rounded-xl hover:opacity-80"
+                        class="block bg-primary text-white mt-6 py-2 rounded-xl hover:opacity-80"
                         ><i class="fa-solid fa-envelope"></i>
                         Contact</a
                     >
@@ -90,7 +90,7 @@
                 
             </div>
         </div>
-    </x-card>
+    </x-card-small>
     
     {{--<x-card class="mt-4 p-2 flex space-x-6">
       <a href="/listings/{{$listing->id}}/edit">

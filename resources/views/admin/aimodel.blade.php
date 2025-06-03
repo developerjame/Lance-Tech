@@ -3,14 +3,8 @@
         @auth
         <header>
             <a href="/admin" class="text-dark ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
-            <a
-            href="/aimodels/create"
-            class="absolute top-15 right-10 bg-black text-dark py-2 px-5"
-            >Add</a
-        >
-            <h1
-                class="text-3xl text-center text-dark font-bold my-6 uppercase"
-            >
+            
+            <h1 class="text-3xl text-center text-dark font-bold my-6 uppercase">
                 AI Training Models
             </h1>
         </header>

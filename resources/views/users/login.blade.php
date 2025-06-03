@@ -1,17 +1,17 @@
 <x-layout>
     <x-card class="p-10 max-w-lg mx-auto mt-24">
                     <header class="text-center">
-                        <h2 class="text-2xl text-white font-bold uppercase mb-1">
+                        <h2 class="text-2xl text-dark font-bold uppercase mb-1">
                             Login
                         </h2>
-                        <p class="mb-4 text-white">Log in into your admin page</p>
+                        <p class="mb-4 text-dark">Log in into your admin page</p>
                     </header>
 
                     <form method="POST" action="/users/authenticate">
                         @csrf
                         
                         <div class="mb-6">
-                            <label for="email" class="inline-block text-lg mb-2 text-white"
+                            <label for="email" class="inline-block text-lg mb-2 text-dark"
                                 >Email</label
                             >
                             <input
@@ -28,7 +28,7 @@
                         <div class="mb-6">
                             <label
                                 for="password"
-                                class="inline-block text-lg mb-2 text-white"
+                                class="inline-block text-lg mb-2 text-dark"
                             >
                                 Password
                             </label>
@@ -47,11 +47,11 @@
                         <div class="mb-6">
                             <button
                                 type="submit"
-                                class="bg-primary text-white rounded py-2 px-4 hover:bg-black"
+                                class="bg-primary text-dark rounded py-2 px-4 hover:bg-black"
                             >
                                 Sign In
                             </button>
-                            <a href="/" class="text-white ml-4"> Back </a>
+                            <a href="/" class="text-dark ml-4"> Back </a>
                         </div>
 
                     </form>

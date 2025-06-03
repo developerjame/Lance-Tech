@@ -9,16 +9,16 @@
             class="flex flex-col items-center justify-center text-center"
         >
     
-            <h1 class="text-3xl text-white font-bold mb-2">{{$account->name}}</h1>
-            <div class="text-xl text-white font-bold mb-4"><p>Price: ${{$account->price}}</p></div>
+            <h1 class="text-3xl text-dark font-bold mb-2">{{$account->name}}</h1>
+            <div class="text-xl text-dark font-bold mb-4"><p>Price: ${{$account->price}}</p></div>
             
             <div class="border border-gray-200 w-full mb-6"></div>
             <div>
-                <h3 class="text-2xl text-white mb-4">
+                <h3 class="text-2xl text-dark mb-4">
                     Description
                 </h3>
                
-                <div class="text-lg text-white space-y-6">
+                <div class="text-lg text-dark space-y-6">
                     
                     <p>
                         {{$account->description}}
@@ -56,7 +56,7 @@
 
     @else
 
-    <a href="/admin/account" class="inline-block text-white ml-4 mb-4"
+    <a href="/admin/account" class="inline-block text-dark ml-4 mb-4"
     ><i class="fa-solid fa-arrow-left"></i> Back
     </a>
     <div class="mx-4">
@@ -65,8 +65,8 @@
             class="flex flex-col items-center justify-center text-center"
         >
     
-            <h1 class="text-3xl text-white font-bold mb-2">{{$account->name}}</h1>
-            <div class="text-xl text-white font-bold mb-4">
+            <h1 class="text-3xl text-dark font-bold mb-2">{{$account->name}}</h1>
+            <div class="text-xl text-dark font-bold mb-4">
                 <p>Price: ${{$account->price}}</p>
             </div>
             
@@ -76,7 +76,7 @@
                     Description
                 </h3>
                
-                <div class="text-lg text-white space-y-6">
+                <div class="text-lg text-dark space-y-6">
                     
                     <p>
                         {{$account->description}}
