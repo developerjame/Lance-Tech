@@ -32,13 +32,14 @@
                     <td
                         class="px-4 py-8 border-t border-b border-gray-300 text-lg"
                     >
-                    
+                    <b>Action</b>
                     </td>
                     <td
                         class="px-4 py-8 border-t border-b border-gray-300 text-lg"
                     >
                     
                     </td>
+                    
                 </tr>
                 @php
                     $moderationResults = $moderations->get();
@@ -63,7 +64,7 @@
                     >
                         <a
                             href="/moderations/{{$moderation->id}}/edit"
-                            class="text-blue-400 px-6 py-2 rounded-xl"
+                            class="text-blue-400 px-0 py-2 rounded-xl"
                             ><i
                                 class="fa-solid fa fa-eye"
                             ></i>
@@ -120,12 +121,7 @@
                     <td
                         class="px-4 py-8 border-t border-b border-gray-300 text-lg"
                     >
-                    
-                    </td>
-                    <td
-                        class="px-4 py-8 border-t border-b border-gray-300 text-lg"
-                    >
-                    
+                    <b>Price</b>
                     </td>
                 </tr>
                 @php
@@ -151,7 +147,7 @@
                     >
                         <a
                             href="/moderations/{{$moderation->id}}"
-                            class="text-blue-400 px-6 py-2 rounded-xl"
+                            class="text-blue-400 px-0 py-2 rounded-xl"
                             ><i
                                 class="fa-solid fa fa-eye"
                             ></i>

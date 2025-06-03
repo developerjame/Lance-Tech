@@ -65,16 +65,16 @@
             class="flex flex-col items-center justify-center text-center"
         >
     
-            <h1 class="text-3xl text-white mb-2">{{$writingaccount->name}}</h1>
-            <div class="text-xl text-white font-bold mb-4"><p>Price: ${{$writingaccount->price}}</p></div>
+            <h1 class="text-3xl text-dark mb-2">{{$writingaccount->name}}</h1>
+            <div class="text-xl text-dark font-bold mb-4"><p>Price: ${{$writingaccount->price}}</p></div>
             
             <div class="border border-gray-200 w-full mb-6"></div>
             <div>
-                <h3 class="text-2xl text-white mb-4">
+                <h3 class="text-2xl text-dark mb-4">
                     Description
                 </h3>
                
-                <div class="text-lg text-white space-y-6">
+                <div class="text-lg text-dark space-y-6">
                     
                     <p>
                         {{$writingaccount->description}}

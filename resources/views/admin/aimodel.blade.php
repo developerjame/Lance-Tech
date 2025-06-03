@@ -32,6 +32,7 @@
                     >
                     
                     </td>
+                    
                 </tr>
                 @php
                     $aimodelResults = $aimodels->get();
@@ -56,7 +57,7 @@
                     >
                         <a
                             href="/aimodels/{{$aimodel->id}}/edit"
-                            class="text-blue-400 px-6 py-2 rounded-xl"
+                            class="text-blue-400 px-0 py-2 rounded-xl"
                             ><i
                                 class="fa-solid fa fa-eye"
                             ></i>
@@ -143,7 +144,7 @@
                     >
                         <a
                             href="/aimodels/{{$aimodel->id}}"
-                            class="text-blue-400 px-6 py-2 rounded-xl"
+                            class="text-blue-400 px-0 py-2 rounded-xl"
                             ><i
                                 class="fa-solid fa fa-eye"
                             ></i>
