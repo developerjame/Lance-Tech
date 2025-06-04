@@ -3,14 +3,8 @@
         @auth
         <header>
             <a href="/admin" class="text-dark ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
-            <a
-            href="/accounts/create"
-            class="absolute top-15 right-10 bg-black text-dark py-2 px-5"
-            >Add</a
-        >
-            <h1
-                class="text-3xl text-dark text-center font-bold my-6 uppercase"
-            >
+            <a href="/accounts/create" class="absolute top-15 right-10 bg-black text-dark py-2 px-5">Add</a>
+            <h1 class="text-3xl text-dark text-center font-bold my-6 uppercase">
                 Training Sessions
             </h1>
         </header>
@@ -32,6 +26,10 @@
                         class="px-4 py-8 border-t border-b border-gray-300 text-lg"
                     >
                     <b>Action</b>
+                    </td>
+                    <td
+                        class="px-4 py-8 border-t border-b border-gray-300 text-lg"
+                    >
                     </td>
                     
                 </tr>
