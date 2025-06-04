@@ -36,7 +36,7 @@
               <div class="card-body">
                 <h5 class="card-title">Writing Accounts</h5>
                 <p class="card-text fs-4 fw-bold">10</p>
-                <div class="text-xl text-dark mb-4 hover:text-black"><a href="/admin/aimodel">Click here</i></a></div>
+                <div class="text-xl text-dark mb-4 hover:text-black"><a href="/admin/writingaccount">Click here</i></a></div>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@
               <div class="card-body">
                 <h5 class="card-title">Chat Moderations Accounts</h5>
                 <p class="card-text fs-4 fw-bold">10</p>
-                <div class="text-xl text-dark mb-4 hover:text-black"><a href="/admin/aimodel">Click here</i></a></div>
+                <div class="text-xl text-dark mb-4 hover:text-black"><a href="/admin/moderation">Click here</i></a></div>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@
               <div class="card-body">
                 <h5 class="card-title">Training Sessions</h5>
                 <p class="card-text fs-4 fw-bold">3</p>
-                <div class="text-xl text-dark mb-4 hover:text-black"><a href="/admin/aimodel">Click here</i></a></div>
+                <div class="text-xl text-dark mb-4 hover:text-black"><a href="/admin/account">Click here</i></a></div>
               </div>
             </div>
           </div>
