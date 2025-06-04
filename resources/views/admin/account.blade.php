@@ -2,7 +2,7 @@
     <x-card class="p-10">
         @auth
         <header>
-            <a href="/admin" class="text-white ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
+            <a href="/admin" class="text-dark ml-4"><i class='far fa-arrow-alt-circle-left' style='font-size:15px'></i> Back </a>
             <a
             href="/accounts/create"
             class="absolute top-15 right-10 bg-black text-dark py-2 px-5"
