@@ -14,6 +14,7 @@
     <script type="text/javascript" src="{{ URL::asset('js/template.js') }}"></script>
     <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}" />
     <link rel="stylesheet" href="{{ URL::asset('css/template.css') }}" />
+    <link rel="stylesheet" href="{{ URL::asset('css/section.css') }}" />
     
     <title>LanceTech</title>
 </head>
@@ -28,10 +29,15 @@
                 <h2>Expert solutions for accounts, AI training, and specialized services.</h2>
             </div>
             <div>
+                <a href="/section"><button id="btn-estimate">GET STARTED</button></a>
+            </div>
+            <!--
+            <div>
                 <button class="apt" data-toggle="modal" data-target="#estimate">
                     Get Started
                 </button>
             </div>
+            -->
             <!-- Middle section -->
             <div class="">
                 <div class="second row">
